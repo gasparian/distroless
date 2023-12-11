@@ -54,7 +54,7 @@ DEBIAN_PACKAGE_VERSIONS = {
             "python3-distutils": "3.9.2-1",
             "python3.9-minimal": "3.9.2-1",
             "tzdata": "2021a-1+deb11u10",
-            "zlib1g": "1:1.2.11.dfsg-2+deb11u2",
+            "zlib1g": "1:1.3.dfsg-3",
         },
         "debian12": {
             "base-files": "12.4+deb12u2",
@@ -106,7 +106,7 @@ DEBIAN_PACKAGE_VERSIONS = {
             "python3-distutils": "3.11.2-3",
             "python3.11-minimal": "3.11.2-6",
             "tzdata": "2023c-5",
-            "zlib1g": "1:1.2.13.dfsg-1",
+            "zlib1g": "1:1.3.dfsg-3",
         },
     },
     "arm": {
@@ -191,7 +191,7 @@ DEBIAN_PACKAGE_VERSIONS = {
             "python3-distutils": "3.9.2-1",
             "python3.9-minimal": "3.9.2-1",
             "tzdata": "2021a-1+deb11u10",
-            "zlib1g": "1:1.2.11.dfsg-2+deb11u2",
+            "zlib1g": "1:1.3.dfsg-3",
         },
         "debian12": {
             "base-files": "12.4+deb12u2",
@@ -243,7 +243,7 @@ DEBIAN_PACKAGE_VERSIONS = {
             "python3-distutils": "3.11.2-3",
             "python3.11-minimal": "3.11.2-6",
             "tzdata": "2023c-5",
-            "zlib1g": "1:1.2.13.dfsg-1",
+            "zlib1g": "1:1.3.dfsg-3",
         },
     },
     "ppc64le": {

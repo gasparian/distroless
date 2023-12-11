@@ -1,6 +1,7 @@
 load("//private/oci:defs.bzl", "sign_and_push_all")
 load("//:checksums.bzl", "ARCHITECTURES", "BASE_ARCHITECTURES")
 load("//base:distro.bzl", "DISTROS", "LANGUAGE_DISTROS")
+load("@contrib_rules_oci//oci/private:tarball.bzl", "oci_tarball")
 
 package(default_visibility = ["//visibility:public"])
 
@@ -423,4 +424,28 @@ sign_and_push_all(
 sign_and_push_all(
     name = "sign_and_push_java21",
     images = JAVA21,
+)
+
+oci_tarball(
+    name = "python_deb12_local_build",
+    image = "//python3:python3_nonroot_amd64_debian12",
+    repotags = [],
+)
+
+oci_tarball(
+    name = "python_deb11_local_build",
+    image = "//experimental/python3:python3_nonroot_amd64_debian11",
+    repotags = [],
+)
+
+oci_tarball(
+    name = "python_deb12_local_build_arm",
+    image = "//python3:python3_nonroot_arm64_debian12",
+    repotags = [],
+)
+
+oci_tarball(
+    name = "python_deb11_local_build_arm",
+    image = "//experimental/python3:python3_nonroot_arm64_debian11",
+    repotags = [],
 )

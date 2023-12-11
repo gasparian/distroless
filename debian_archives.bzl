@@ -317,8 +317,8 @@ def repositories():
     debian_archive(
         name = "amd64_debian11_zlib1g",
         package_name = "zlib1g",
-        sha256 = "03d2ab2174af76df6f517b854b77460fbdafc3dac0dca979317da67538159a3e",
-        urls = ["https://snapshot.debian.org/archive/debian/20231106T210201Z/pool/main/z/zlib/zlib1g_1.2.11.dfsg-2+deb11u2_amd64.deb"],
+        sha256 = "aafaa667490fa9e6adecb904a8c859ac8bd62a2c9e20c2a9abd2f82078f684b6",
+        urls = ["https://snapshot.debian.org/archive/debian/20231207T031040Z/pool/main/z/zlib/zlib1g_1.3.dfsg-3_amd64.deb"],
     )
     debian_archive(
         name = "amd64_debian12_base-files",
@@ -617,8 +617,8 @@ def repositories():
     debian_archive(
         name = "amd64_debian12_zlib1g",
         package_name = "zlib1g",
-        sha256 = "d7dd1d1411fedf27f5e27650a6eff20ef294077b568f4c8c5e51466dc7c08ce4",
-        urls = ["https://snapshot.debian.org/archive/debian/20231106T210201Z/pool/main/z/zlib/zlib1g_1.2.13.dfsg-1_amd64.deb"],
+        sha256 = "aafaa667490fa9e6adecb904a8c859ac8bd62a2c9e20c2a9abd2f82078f684b6",
+        urls = ["https://snapshot.debian.org/archive/debian/20231207T031040Z/pool/main/z/zlib/zlib1g_1.3.dfsg-3_amd64.deb"],
     )
     debian_archive(
         name = "arm_debian11_base-files",
@@ -1067,8 +1067,8 @@ def repositories():
     debian_archive(
         name = "arm64_debian11_zlib1g",
         package_name = "zlib1g",
-        sha256 = "e3963985d1a020d67ffd4180e6f9c4b5c600b515f0c9d8fda513d7a0e48e63a1",
-        urls = ["https://snapshot.debian.org/archive/debian/20231106T210201Z/pool/main/z/zlib/zlib1g_1.2.11.dfsg-2+deb11u2_arm64.deb"],
+        sha256 = "eed36e52079f20b8c26e537f8c1d778b4da13f70d0521838965af6655088bbf4",
+        urls = ["https://snapshot.debian.org/archive/debian/20231207T031040Z/pool/main/z/zlib/zlib1g-dev_1.3.dfsg-3_arm64.deb"], 
     )
     debian_archive(
         name = "arm64_debian12_base-files",
@@ -1367,8 +1367,8 @@ def repositories():
     debian_archive(
         name = "arm64_debian12_zlib1g",
         package_name = "zlib1g",
-        sha256 = "52b8b8a145bbe1956bba82034f77022cbef0c3d0885c9e32d9817a7932fe1913",
-        urls = ["https://snapshot.debian.org/archive/debian/20231106T210201Z/pool/main/z/zlib/zlib1g_1.2.13.dfsg-1_arm64.deb"],
+        sha256 = "eed36e52079f20b8c26e537f8c1d778b4da13f70d0521838965af6655088bbf4",
+        urls = ["https://snapshot.debian.org/archive/debian/20231207T031040Z/pool/main/z/zlib/zlib1g-dev_1.3.dfsg-3_arm64.deb"], 
     )
     debian_archive(
         name = "ppc64le_debian11_base-files",
